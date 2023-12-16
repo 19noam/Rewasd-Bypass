@@ -58,7 +58,7 @@ ipconfig /renew
 And you are done!
 
 # How to run
-after you completed the first step, go to the releases tab, download the latest release, extract it, and run the "Bypass Rewasd.bat" file.
+After you completed the first step, go to the releases tab, download the latest release, extract it, and run the "Bypass Rewasd.bat" file.
 Follow the steps inside the .bat file
 
 
