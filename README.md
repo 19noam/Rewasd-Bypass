@@ -1,7 +1,8 @@
 # Rewasd-Bypass
 Bypass reWASD 7 day free trial and reactivate it every time it ends
 
-
+# Disclaimer
+English is not my native language so there will be some grammar mistakes.
 
 
 # [ONLY DO THIS STEP THE FIRST TIME YOU RUN THIS SCRIPT]
