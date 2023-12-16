@@ -1,2 +1,2 @@
 @echo OFF
-.Executables/Script.bat
+Executables/Script.bat
