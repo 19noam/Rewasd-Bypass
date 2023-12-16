@@ -59,5 +59,14 @@ And you are done!
 
 # How to run
 after you completed the first step, go to the releases tab, download the latest release, extract it, and run the "Bypass Rewasd.bat" file.
-Follow the steps inside the bat file and
-NOTE: you will maybe need to disable your antivirus software because your computer doesn't recognize the bat file and will think it's a virus. Read: https://superuser.com/questions/1331625/can-someone-explain-why-the-compiled-batch-file-detected-by-antivirus-as-a-threa
+Follow the steps inside the .bat file
+
+
+Guide: https://www.youtube.com/watch?v=z6322PhgJ1Y
+
+
+
+*NOTE: you will maybe need to disable your antivirus software because your computer doesn't recognize the bat file and will think it's a virus. Read: https://superuser.com/questions/1331625/can-someone-explain-why-the-compiled-batch-file-detected-by-antivirus-as-a-threa
+
+
+
