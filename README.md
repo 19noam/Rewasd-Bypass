@@ -69,5 +69,5 @@ Guide: https://www.youtube.com/watch?v=z6322PhgJ1Y
 
 *NOTE: you will maybe need to disable your antivirus software because your computer doesn't recognize the bat file and will think it's a virus. Read: https://superuser.com/questions/1331625/can-someone-explain-why-the-compiled-batch-file-detected-by-antivirus-as-a-threa
 
-
+*DISCLAIMER 2: After I read the comments and the issues people had with the script I would like to clarify something, I only created the script and not the software itself. The script is running commands from the "executables" folder. The executables folder contains software that I didn't create myself. I don't know what hardware it supports and what hardware it doesn't. It looks like it only works for some people so I guess you'll have to try it yourself to see if it's working. I have: Nvidia gpu, i7 10th generation intel cpu, Biostar motherboard, for wifi I have a tp-link adapter and my os is Windows 11 (although it should also work on Windows 10)
 
