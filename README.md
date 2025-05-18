@@ -1,73 +1,115 @@
-# Rewasd-Bypass
-Bypass reWASD 7 day free trial and reactivate it every time it ends
+# reWASD Bypass
 
-# Disclaimer
-English is not my native language so there will be some grammar mistakes.
+Bypass the 7-day free trial of reWASD and reactivate it each time the trial expires.
 
+---
 
-# [ONLY DO THIS STEP THE FIRST TIME YOU RUN THIS SCRIPT]
+## ⚠️ Disclaimer
 
+English is not my first language, so there may be small grammar issues.  
+This guide is for **educational purposes only**. Use at your own risk.
 
-a) Open Device Manager
+---
 
+## 📌 One-Time Setup (Only needed the first time)
 
-![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/30ec398d-e4b7-4321-b437-d2b3deab0469)
+### 1. Open Device Manager
 
+Press `Win + R`, type `devmgmt.msc`, and press Enter.
 
+![Device Manager](https://github.com/19noam/Rewasd-Bypass/assets/69153900/30ec398d-e4b7-4321-b437-d2b3deab0469)
 
-b) Press on the small arrow next to "Network adapters" and double click this option:
+---
 
+### 2. Expand "Network adapters"
 
+Click the arrow next to **Network adapters**, then **double-click** your network device.
 
- ![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/6bf43b3d-1ccc-42ad-8c5c-69ef3fb539f7)
+![Network Adapters](https://github.com/19noam/Rewasd-Bypass/assets/69153900/6bf43b3d-1ccc-42ad-8c5c-69ef3fb539f7)
 
+---
 
+### 3. Open the "Advanced" Tab
 
+Go to the **Advanced** tab in the newly opened window.
 
+![Advanced Tab](https://github.com/19noam/Rewasd-Bypass/assets/69153900/8cb3e860-477c-4e63-beaa-7b6fb1028aa8)
 
-c) Now a window will open and you'll need to go to the "Advanced" Tab
+---
 
+### 4. Set a Custom MAC Address
 
-
-![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/8cb3e860-477c-4e63-beaa-7b6fb1028aa8)
-
-
-d) Now when you are in the advanced tab, you'll need to search for "Network Address" and copy and paste this Value: 115544DD88HH and then press OK
-
-
-
-
-![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/1ed07d53-38c7-40c4-b0c0-1514bd161029)
-
-
-
-e) Now Press ctrl + r and type "cmd"
+Find **Network Address**, set it to "Value", and paste: 115544DD88HH
 
 
+Then click **OK**.
 
-![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/ce3ec042-045a-4ec3-baff-cc10aeaeb1b5)
+![Network Address](https://github.com/19noam/Rewasd-Bypass/assets/69153900/1ed07d53-38c7-40c4-b0c0-1514bd161029)
 
+---
 
-f) Now type these commands: 
+### 5. Refresh IP Settings
 
+Open Command Prompt:
+
+- Press `Ctrl + R`, type `cmd`, and hit Enter.
+
+![CMD](https://github.com/19noam/Rewasd-Bypass/assets/69153900/ce3ec042-045a-4ec3-baff-cc10aeaeb1b5)
+
+Run these commands:
+
+```cmd
 ipconfig /release
-
 ipconfig /renew
+```
+![CMD2](https://github.com/19noam/Rewasd-Bypass/assets/69153900/164cf172-79e0-4338-9110-85f91002869a)
 
-![image](https://github.com/19noam/Rewasd-Bypass/assets/69153900/164cf172-79e0-4338-9110-85f91002869a)
-
-And you are done!
-
-# How to run
-After you completed the first step, go to the releases tab, download the latest release, extract it, and run the "Bypass Rewasd.bat" file.
-Follow the steps inside the .bat file
-
-
-Guide: https://www.youtube.com/watch?v=z6322PhgJ1Y
+✅ Done! You’ve now spoofed your MAC address and refreshed your IP.
 
 
 
-*NOTE: you will maybe need to disable your antivirus software because your computer doesn't recognize the bat file and will think it's a virus. Read: https://superuser.com/questions/1331625/can-someone-explain-why-the-compiled-batch-file-detected-by-antivirus-as-a-threa
+## 🚀 How to Run
 
-*DISCLAIMER 2: After I read the comments and the issues people had with the script I would like to clarify something, I only created the script and not the software itself. The script is running commands from the "executables" folder. The executables folder contains software that I didn't create myself. I don't know what hardware it supports and what hardware it doesn't. It looks like it only works for some people so I guess you'll have to try it yourself to see if it's working. I have: Nvidia gpu, i7 10th generation intel cpu, Biostar motherboard, for wifi I have a tp-link adapter and my os is Windows 11 (although it should also work on Windows 10)
+### Step 1: Download & Execute
 
+1. Go to the [**Releases** tab](https://github.com/19noam/Rewasd-Bypass/releases).
+2. Download the **latest release** `.zip` file.
+3. Extract the archive to any folder.
+4. Run the following file:
+
+    ```bash
+    Bypass Rewasd.bat
+    ```
+
+5. Follow the instructions in the terminal window.
+
+📺 **Video guide**: [Watch on YouTube](https://www.youtube.com/watch?v=z6322PhgJ1Y)
+
+---
+
+### Step 2: Create a New reWASD Account
+
+After launching reWASD:
+
+- **Do not** log in with an existing account.
+- Select **Sign Up**.
+- Use a new email address (you can use a temporary email provider).
+
+👉 Use: [https://temp-mail.org/en/](https://temp-mail.org/en/) to receive and verify your new account.
+
+---
+
+### 🔁 Repeat Every 7 Days
+
+You will need to:
+
+1. Run the `Bypass Rewasd.bat` script again.
+2. Create a new reWASD account with a different email.
+
+---
+
+### ⚠️ Antivirus Notice
+
+You might need to **disable your antivirus** temporarily, as `.bat` files often trigger false positives.
+
+📖 [Why .bat files get flagged by antivirus](https://superuser.com/questions/1331625/can-someone-explain-why-the-compiled-batch-file-detected-by-antivirus-as-a-threa)
